@@ -1,0 +1,352 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffaf2;
+    color: #172c43;
+    line-height: 1.8;
+}
+
+header {
+    background: #10263c;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header h2 {
+    font-family: Georgia, serif;
+}
+
+header span,
+.hero span {
+    color: #f5c86a;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f5c86a;
+}
+
+.hero {
+    text-align: center;
+    padding: 110px 20px;
+    color: white;
+    background: linear-gradient(135deg, #10263c, #36566d);
+}
+
+.small-title {
+    color: #b98224;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.hero .small-title {
+    color: #f5c86a;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(38px, 7vw, 65px);
+    margin-bottom: 20px;
+}
+
+.hero p:not(.small-title) {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+}
+
+.button,
+button {
+    display: inline-block;
+    background: #f5c86a;
+    color: #10263c;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover,
+button:hover {
+    background: #ffdc8c;
+    transform: translateY(-2px);
+}
+
+.message {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px #10263c12;
+}
+
+.message h2,
+.thanks h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.message p:not(.small-title) {
+    margin-bottom: 18px;
+}
+
+.message h3 {
+    color: #a87522;
+    margin-top: 25px;
+}
+
+.thanks {
+    text-align: center;
+    padding: 65px 20px;
+    background: #f5ead8;
+}
+
+.thanks p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+}
+
+#surpriseMessage {
+    margin-top: 25px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    color: #10263c;
+}
+
+footer {
+    text-align: center;
+    background: #10263c;
+    color: white;
+    padding: 22px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        padding: 75px 20px;
+    }
+
+    .message {
+        margin: 25px 15px;
+        padding: 25px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffaf2;
+    color: #172c43;
+    line-height: 1.8;
+}
+
+header {
+    background: #10263c;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header h2 {
+    font-family: Georgia, serif;
+}
+
+header span,
+.hero span {
+    color: #f5c86a;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f5c86a;
+}
+
+.hero {
+    text-align: center;
+    padding: 110px 20px;
+    color: white;
+    background: linear-gradient(135deg, #10263c, #36566d);
+}
+
+.small-title {
+    color: #b98224;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.hero .small-title {
+    color: #f5c86a;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(38px, 7vw, 65px);
+    margin-bottom: 20px;
+}
+
+.hero p:not(.small-title) {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+}
+
+.button,
+button {
+    display: inline-block;
+    background: #f5c86a;
+    color: #10263c;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover,
+button:hover {
+    background: #ffdc8c;
+    transform: translateY(-2px);
+}
+
+.message {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px #10263c12;
+}
+
+.message h2,
+.thanks h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.message p:not(.small-title) {
+    margin-bottom: 18px;
+}
+
+.message h3 {
+    color: #a87522;
+    margin-top: 25px;
+}
+
+.thanks {
+    text-align: center;
+    padding: 65px 20px;
+    background: #f5ead8;
+}
+
+.thanks p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+}
+
+#surpriseMessage {
+    margin-top: 25px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    color: #10263c;
+}
+
+footer {
+    text-align: center;
+    background: #10263c;
+    color: white;
+    padding: 22px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        padding: 75px 20px;
+    }
+
+    .message {
+        margin: 25px 15px;
+        padding: 25px;
+    }
+}
